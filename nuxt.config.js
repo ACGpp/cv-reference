@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   // 应用元数据
   app: {
     // 为GitHub Pages设置基础路径
-    baseURL: '/computer-vision-reference/',
+    baseURL: '/cv-reference/',
     head: {
       title: 'Computer Vision Reference',
       meta: [
