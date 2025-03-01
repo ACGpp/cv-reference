@@ -9,8 +9,8 @@ export default defineNuxtConfig({
 
   // 应用元数据
   app: {
-    // 为GitHub Pages部署设置空基础路径，避免预渲染路径问题
-    baseURL: '',
+    // 为GitHub Pages部署设置正确的基础路径
+    baseURL: '/cv-reference/',
     head: {
       title: 'Computer Vision Reference',
       meta: [
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: '全球计算机视觉实验室、教授、课程和会议资源集合' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/cv-reference/favicon.ico' }
       ]
     }
   },
