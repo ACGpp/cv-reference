@@ -1,0 +1,25 @@
+{
+  "common": {
+    "title": "计算机视觉资源参考",
+    "description": "全球计算机视觉实验室、教授、课程和会议资源集合"
+  },
+  "nav": {
+    "home": "首页",
+    "labs": "实验室",
+    "professors": "教授",
+    "courses": "课程",
+    "journals": "期刊会议"
+  },
+  "labs": {
+    "title": "计算机视觉实验室信息",
+    "description": "收集全球顶尖高校的计算机视觉实验室信息",
+    "search": "搜索实验室",
+    "searchPlaceholder": "输入实验室名称或研究方向",
+    "region": "地区筛选",
+    "allRegions": "全部地区",
+    "northAmerica": "北美",
+    "europe": "欧洲",
+    "asia": "亚洲",
+    "china": "中国"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "common": {
+    "title": "Computer Vision Reference",
+    "description": "Global Computer Vision Labs, Professors, Courses and Conference Resources"
+  },
+  "nav": {
+    "home": "Home",
+    "labs": "Labs",
+    "professors": "Professors",
+    "courses": "Courses",
+    "journals": "Journals"
+  },
+  "labs": {
+    "title": "Computer Vision Labs Information",
+    "description": "Collection of top computer vision labs worldwide",
+    "search": "Search labs",
+    "searchPlaceholder": "Enter lab name or research area",
+    "region": "Region filter",
+    "allRegions": "All regions",
+    "northAmerica": "North America",
+    "europe": "Europe",
+    "asia": "Asia",
+    "china": "China"
+  }
+}
