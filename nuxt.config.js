@@ -9,8 +9,8 @@ export default defineNuxtConfig({
 
   // 应用元数据
   app: {
-    // 为GitHub Pages部署设置正确的基础路径
-    baseURL: '/cv-reference/',
+    // 根据环境设置基础路径
+    baseURL: process.env.NODE_ENV === 'production' ? '/cv-reference/' : '/',
     head: {
       title: 'Computer Vision Reference',
       meta: [

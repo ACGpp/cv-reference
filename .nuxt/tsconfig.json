@@ -99,13 +99,13 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
+        "./mdc-imports"
       ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
@@ -141,7 +141,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/e659aaeb-cd2c-4630-a753-b96d43033d86.json"
+        "./manifest/meta/dev.json"
       ],
       "#components": [
         "./components"
@@ -193,6 +193,8 @@
     "../node_modules/@nuxt/content/dist/runtime",
     "../node_modules/@nuxtjs/i18n/runtime",
     "../node_modules/@nuxtjs/i18n/dist/runtime",
+    "../node_modules/@nuxt/devtools/runtime",
+    "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     "../node_modules/@nuxt/telemetry/dist/runtime",
     ".."
@@ -205,6 +207,7 @@
     "../node_modules/@nuxtjs/mdc/node_modules",
     "../node_modules/@nuxt/content/node_modules",
     "../node_modules/@nuxtjs/i18n/node_modules",
+    "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/dist/runtime/server",
@@ -214,6 +217,8 @@
     "../node_modules/@nuxt/content/dist/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
     "../node_modules/@nuxtjs/i18n/dist/runtime/server",
+    "../node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../node_modules/@nuxt/telemetry/dist/runtime/server",
     "../.output"

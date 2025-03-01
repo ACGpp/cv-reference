@@ -562,8 +562,8 @@ function _expandFromEnv(value) {
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/",
-    "buildId": "e659aaeb-cd2c-4630-a753-b96d43033d86",
+    "baseURL": "/cv-reference/",
+    "buildId": "07e45517-7ac6-4fcb-9b61-6e1c9ce27d7b",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -636,7 +636,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1740843947322,
+      "integrity": 1740845517380,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -2244,7 +2244,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _Weib9v, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _Weib9v, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _Weib9v, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1740843947322.json', handler: _afKcml, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1740845517380.json', handler: _afKcml, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _vuI4hm, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _vuI4hm, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _vuI4hm, lazy: false, middleware: false, method: "get" },
