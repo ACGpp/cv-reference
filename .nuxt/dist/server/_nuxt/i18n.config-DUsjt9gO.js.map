@@ -1,0 +1,1 @@
+{"version":3,"file":"i18n.config-DUsjt9gO.js","sources":["../../../../locales/i18n.config.ts?hash=91504c8a&config=1"],"sourcesContent":["export default {\n  legacy: false,\n  locale: 'zh',\n  fallbackLocale: 'en',\n  messages: {}\n}"],"names":[],"mappings":"AAAA,MAAe,cAAA;AAAA,EACb,QAAQ;AAAA,EACR,QAAQ;AAAA,EACR,gBAAgB;AAAA,EAChB,UAAU,CAAA;AACZ;"}
