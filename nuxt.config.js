@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config'
+import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
   // 为GitHub Pages部署设置静态生成
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       title: 'Computer Vision Reference',
       meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'viewport', content: 'width-device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: '全球计算机视觉实验室、教授、课程和会议资源集合' }
       ],
       link: [
