@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt'
-
-export default defineNuxtConfig({
-  // 为GitHub Pages部署设置静态生成
-  ssr: false,
-  target: 'static',
+export default defineNuxtConfig => ({
+  // Vercel部署配置
+  ssr: true,
   
   // 兼容性日期设置
   compatibilityDate: '2025-03-01',
@@ -74,9 +71,9 @@ export default defineNuxtConfig({
   // 开发环境配置
   devtools: { enabled: process.env.NODE_ENV === 'development' },
   
-  // GitHub Pages部署配置
-  generate: {
-    fallback: true
+  // 静态生成配置
+  nitro: {
+    preset: 'vercel'
   },
   
   // 构建优化配置
