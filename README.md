@@ -3,6 +3,8 @@
 ## Project Introduction
 
 This project collects information about the world's best computer vision laboratories, lecture notes, and course materials.
+Please go to the https://edu.jaylinh.com/courses to see more detail.
+Or you can see the frount web page in cv-reference.shouzhong.top
 
 ## Content Roadmap
 
