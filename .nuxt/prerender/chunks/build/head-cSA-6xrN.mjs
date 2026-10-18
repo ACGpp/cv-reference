@@ -1,5 +1,5 @@
 import { d as useRoute, u as useRuntimeConfig, j as joinURL, w as withTrailingSlash, e as withoutTrailingSlash, h as hasProtocol } from './server.mjs';
-import { unref, watch } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { unref, watch } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
 import { u as useHead } from './index-BabADJUJ.mjs';
 
 const useContentHead = (_content, to = useRoute()) => {

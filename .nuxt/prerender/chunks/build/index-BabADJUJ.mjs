@@ -1,6 +1,6 @@
-import { ref, watchEffect, watch, getCurrentInstance } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { ref, watchEffect, watch, getCurrentInstance } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
 import { i as injectHead, r as resolveUnrefHeadInput } from './server.mjs';
-import { composableNames } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/@unhead/shared/dist/index.mjs';
+import { composableNames } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/@unhead/shared/dist/index.mjs';
 
 function useHead(input, options = {}) {
   const head = options.head || injectHead();

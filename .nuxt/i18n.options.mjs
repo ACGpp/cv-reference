@@ -1,7 +1,7 @@
 
 // @ts-nocheck
-import locale_C_58_C_58_Users_15270_Desktop_cv_reference_locales_en_json from "../locales/en.json";
-import locale_C_58_C_58_Users_15270_Desktop_cv_reference_locales_zh_json from "../locales/zh.json";
+import locale_C_58_C_58_Users_user_Desktop_cv_reference_locales_en_json from "../locales/en.json";
+import locale_C_58_C_58_Users_user_Desktop_cv_reference_locales_zh_json from "../locales/zh.json";
 
 
 export const localeCodes =  [
@@ -10,8 +10,8 @@ export const localeCodes =  [
 ]
 
 export const localeLoaders = {
-  "en": [{ key: "../locales/en.json", load: () => Promise.resolve(locale_C_58_C_58_Users_15270_Desktop_cv_reference_locales_en_json), cache: true }],
-  "zh": [{ key: "../locales/zh.json", load: () => Promise.resolve(locale_C_58_C_58_Users_15270_Desktop_cv_reference_locales_zh_json), cache: true }]
+  "en": [{ key: "../locales/en.json", load: () => Promise.resolve(locale_C_58_C_58_Users_user_Desktop_cv_reference_locales_en_json), cache: true }],
+  "zh": [{ key: "../locales/zh.json", load: () => Promise.resolve(locale_C_58_C_58_Users_user_Desktop_cv_reference_locales_zh_json), cache: true }]
 }
 
 export const vueI18nConfigs = [
@@ -45,14 +45,14 @@ export const nuxtI18nOptions = {
       "code": "en",
       "name": "English",
       "files": [
-        "C:/Users/15270/Desktop/cv-reference/locales/en.json"
+        "C:/Users/user/Desktop/cv-reference/locales/en.json"
       ]
     },
     {
       "code": "zh",
       "name": "中文",
       "files": [
-        "C:/Users/15270/Desktop/cv-reference/locales/zh.json"
+        "C:/Users/user/Desktop/cv-reference/locales/zh.json"
       ]
     }
   ],
@@ -93,7 +93,7 @@ export const normalizedLocales = [
     "name": "English",
     "files": [
       {
-        "path": "C:/Users/15270/Desktop/cv-reference/locales/en.json"
+        "path": "C:/Users/user/Desktop/cv-reference/locales/en.json"
       }
     ]
   },
@@ -102,7 +102,7 @@ export const normalizedLocales = [
     "name": "中文",
     "files": [
       {
-        "path": "C:/Users/15270/Desktop/cv-reference/locales/zh.json"
+        "path": "C:/Users/user/Desktop/cv-reference/locales/zh.json"
       }
     ]
   }

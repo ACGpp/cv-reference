@@ -1,5 +1,5 @@
 import { getMdcConfigs } from './mdc-configs.mjs';
-import { createWasmOnigEngine } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/engine-oniguruma.mjs';
+import { createWasmOnigEngine } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/engine-oniguruma.mjs';
 
 function createShikiHighlighter({
   langs = [],
@@ -13,8 +13,8 @@ function createShikiHighlighter({
   let shiki;
   let configs;
   async function _getShiki() {
-    const { createHighlighterCore, addClassToHast, isSpecialLang, isSpecialTheme } = await import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/core.mjs');
-    const { transformerNotationDiff, transformerNotationErrorLevel, transformerNotationFocus, transformerNotationHighlight } = await import('file://C:/Users/15270/Desktop/cv-reference/node_modules/@shikijs/transformers/dist/index.mjs');
+    const { createHighlighterCore, addClassToHast, isSpecialLang, isSpecialTheme } = await import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/core.mjs');
+    const { transformerNotationDiff, transformerNotationErrorLevel, transformerNotationFocus, transformerNotationHighlight } = await import('file://C:/Users/user/Desktop/cv-reference/node_modules/@shikijs/transformers/dist/index.mjs');
     const shiki2 = await createHighlighterCore({
       langs,
       themes,
@@ -173,32 +173,32 @@ function createShikiHighlighter({
 }
 
 const bundledLangs = {
-"javascript": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/javascript.mjs'),
-"js": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/javascript.mjs'),
-"jsx": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/jsx.mjs'),
-"json": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/json.mjs'),
-"typescript": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/typescript.mjs'),
-"ts": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/typescript.mjs'),
-"tsx": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/tsx.mjs'),
-"vue": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/vue.mjs'),
-"css": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/css.mjs'),
-"html": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/html.mjs'),
-"shellscript": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
-"bash": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
-"sh": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
-"shell": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
-"zsh": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
-"markdown": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/markdown.mjs'),
-"md": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/markdown.mjs'),
-"mdc": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/mdc.mjs'),
-"yaml": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/yaml.mjs'),
-"yml": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/langs/yaml.mjs'),
+"javascript": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/javascript.mjs'),
+"js": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/javascript.mjs'),
+"jsx": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/jsx.mjs'),
+"json": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/json.mjs'),
+"typescript": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/typescript.mjs'),
+"ts": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/typescript.mjs'),
+"tsx": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/tsx.mjs'),
+"vue": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/vue.mjs'),
+"css": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/css.mjs'),
+"html": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/html.mjs'),
+"shellscript": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
+"bash": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
+"sh": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
+"shell": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
+"zsh": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/shellscript.mjs'),
+"markdown": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/markdown.mjs'),
+"md": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/markdown.mjs'),
+"mdc": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/mdc.mjs'),
+"yaml": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/yaml.mjs'),
+"yml": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/langs/yaml.mjs'),
 };
 const bundledThemes = {
-"github-light": () => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/themes/github-light.mjs').then(r => r.default),
+"github-light": () => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/themes/github-light.mjs').then(r => r.default),
 };
 const options = {};
-const engine = createWasmOnigEngine(() => import('file://C:/Users/15270/Desktop/cv-reference/node_modules/shiki/dist/wasm.mjs'));
+const engine = createWasmOnigEngine(() => import('file://C:/Users/user/Desktop/cv-reference/node_modules/shiki/dist/wasm.mjs'));
 const highlighter = createShikiHighlighter({ bundledLangs, bundledThemes, options, getMdcConfigs, engine });
 
 export { createShikiHighlighter, highlighter as default };

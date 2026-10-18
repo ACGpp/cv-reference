@@ -1,4 +1,4 @@
-import { ref, shallowRef, toRef, getCurrentInstance, onServerPrefetch, unref } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { ref, shallowRef, toRef, getCurrentInstance, onServerPrefetch, unref } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
 import { k as useNuxtApp, l as asyncDataDefaults, m as createError } from './server.mjs';
 
 const isDefer = (dedupe) => dedupe === "defer" || dedupe === false;

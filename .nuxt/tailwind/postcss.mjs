@@ -3,10 +3,10 @@ import configMerger from "@nuxtjs/tailwindcss/merger";
 
 ;
 const config = [
-{"content":{"files":["C:/Users/15270/Desktop/cv-reference/components/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/components/global/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/components/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/pages/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/plugins/**/*.{js,ts,mjs}","C:/Users/15270/Desktop/cv-reference/composables/**/*.{js,ts,mjs}","C:/Users/15270/Desktop/cv-reference/utils/**/*.{js,ts,mjs}","C:/Users/15270/Desktop/cv-reference/{A,a}pp.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/{E,e}rror.{vue,js,jsx,mjs,ts,tsx}","C:/Users/15270/Desktop/cv-reference/app.config.{js,ts,mjs}"]}},
+{"content":{"files":["C:/Users/user/Desktop/cv-reference/components/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/components/global/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/components/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/pages/**/*.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/plugins/**/*.{js,ts,mjs}","C:/Users/user/Desktop/cv-reference/composables/**/*.{js,ts,mjs}","C:/Users/user/Desktop/cv-reference/utils/**/*.{js,ts,mjs}","C:/Users/user/Desktop/cv-reference/{A,a}pp.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/{E,e}rror.{vue,js,jsx,mjs,ts,tsx}","C:/Users/user/Desktop/cv-reference/app.config.{js,ts,mjs}"]}},
 {}
 ].reduce((acc, curr) => configMerger(acc, curr), {});
 
-const resolvedConfig = (() => {const cfg=config;cfg["content"]["files"]["11"] = "C:/Users/15270/Desktop/cv-reference/.nuxt/content-cache/parsed/**/*.{md,yml,yaml,json}";;return cfg;})();
+const resolvedConfig = (() => {const cfg=config;cfg["content"]["files"]["11"] = "C:/Users/user/Desktop/cv-reference/.nuxt/content-cache/parsed/**/*.{md,yml,yaml,json}";;return cfg;})();
 
 export default resolvedConfig;

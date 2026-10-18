@@ -1,6 +1,6 @@
 import { _ as __nuxt_component_0 } from './nuxt-link-yh-mS4-T.mjs';
-import { mergeProps, withCtx, createTextVNode, useSSRContext } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
-import { ssrRenderAttrs, ssrRenderComponent } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/server-renderer/index.mjs';
+import { mergeProps, withCtx, createTextVNode, useSSRContext } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrRenderComponent } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = {
   __name: "NavBar",

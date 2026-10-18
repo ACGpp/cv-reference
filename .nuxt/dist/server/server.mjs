@@ -1551,7 +1551,7 @@ const normalizedLocales = [
     "name": "English",
     "files": [
       {
-        "path": "C:/Users/15270/Desktop/cv-reference/locales/en.json"
+        "path": "C:/Users/user/Desktop/cv-reference/locales/en.json"
       }
     ]
   },
@@ -1560,7 +1560,7 @@ const normalizedLocales = [
     "name": "中文",
     "files": [
       {
-        "path": "C:/Users/15270/Desktop/cv-reference/locales/zh.json"
+        "path": "C:/Users/user/Desktop/cv-reference/locales/zh.json"
       }
     ]
   }

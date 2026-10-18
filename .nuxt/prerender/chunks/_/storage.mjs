@@ -1,20 +1,20 @@
-import { prefixStorage } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/unstorage/dist/index.mjs';
+import { prefixStorage } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/unstorage/dist/index.mjs';
 import { e as parseMarkdown, i as isRelative, j as joinURL, c as useRuntimeConfig, f as isPreview, h as withLeadingSlash, w as withoutTrailingSlash, a as useStorage, k as getPreview, u as useNitroApp } from './nitro.mjs';
-import { hash } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/ohash/dist/index.mjs';
-import defu from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/defu/dist/defu.mjs';
-import { extname } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/pathe/dist/index.mjs';
-import { camelCase } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/scule/dist/index.mjs';
-import { unified } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/unified/index.js';
+import { hash } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/ohash/dist/index.mjs';
+import defu from 'file://C:/Users/user/Desktop/cv-reference/node_modules/defu/dist/defu.mjs';
+import { extname } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/pathe/dist/index.mjs';
+import { camelCase } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/scule/dist/index.mjs';
+import { unified } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/unified/index.js';
 import { d as defineTransformer, g as generatePath, p as pathMeta } from './path-meta.mjs';
-import { toString } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/mdast-util-to-string/index.js';
-import { postprocess, preprocess } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/micromark/index.js';
-import { stringifyPosition } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/micromark-util-character/index.js';
-import { push, splice } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/micromark-util-chunked/index.js';
-import { resolveAll } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/micromark-util-resolve-all/index.js';
-import { normalizeUri } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/micromark-util-sanitize-uri/index.js';
-import { parseFrontMatter } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/remark-mdc/dist/index.mjs';
-import { destr } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/destr/dist/index.mjs';
+import { toString } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/mdast-util-to-string/index.js';
+import { postprocess, preprocess } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/micromark/index.js';
+import { stringifyPosition } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/micromark-util-character/index.js';
+import { push, splice } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/micromark-util-chunked/index.js';
+import { resolveAll } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/micromark-util-resolve-all/index.js';
+import { normalizeUri } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/micromark-util-sanitize-uri/index.js';
+import { parseFrontMatter } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/remark-mdc/dist/index.mjs';
+import { destr } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/destr/dist/index.mjs';
 
 const get = (obj, path) => path.split(".").reduce((acc, part) => acc && acc[part], obj);
 const _pick = (obj, condition) => Object.keys(obj).filter(condition).reduce((newObj, key) => Object.assign(newObj, { [key]: obj[key] }), {});
@@ -944,7 +944,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file://C:/Users/15270/Desktop/cv-reference/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file://C:/Users/user/Desktop/cv-reference/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }

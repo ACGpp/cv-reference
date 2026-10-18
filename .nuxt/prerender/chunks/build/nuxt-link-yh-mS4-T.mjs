@@ -1,4 +1,4 @@
-import { defineComponent, ref, h, resolveComponent, computed } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { defineComponent, ref, h, resolveComponent, computed } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
 import { o as useRouter, k as useNuxtApp, p as parseQuery, h as hasProtocol, s as resolveRouteObject, j as joinURL, u as useRuntimeConfig, t as navigateTo, w as withTrailingSlash, e as withoutTrailingSlash, v as nuxtLinkDefaults } from './server.mjs';
 
 const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);

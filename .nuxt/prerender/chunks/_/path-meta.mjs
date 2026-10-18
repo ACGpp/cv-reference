@@ -1,5 +1,5 @@
-import { pascalCase } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/scule/dist/index.mjs';
-import slugify from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/slugify/slugify.js';
+import { pascalCase } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/scule/dist/index.mjs';
+import slugify from 'file://C:/Users/user/Desktop/cv-reference/node_modules/slugify/slugify.js';
 import { h as withLeadingSlash, w as withoutTrailingSlash } from './nitro.mjs';
 
 const defineTransformer = (transformer) => {

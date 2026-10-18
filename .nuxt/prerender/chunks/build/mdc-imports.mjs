@@ -1,6 +1,6 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import _RemarkEmoji from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/remark-emoji/index.js';
-import { visit } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/unist-util-visit/index.js';
-import { toString } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/hast-util-to-string/index.js';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import _RemarkEmoji from 'file://C:/Users/user/Desktop/cv-reference/node_modules/remark-emoji/index.js';
+import { visit } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/unist-util-visit/index.js';
+import { toString } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/hast-util-to-string/index.js';
 
 function rehypeHighlight$1(opts) {
   const options = opts;

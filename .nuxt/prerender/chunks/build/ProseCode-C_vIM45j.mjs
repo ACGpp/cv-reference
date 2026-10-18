@@ -1,5 +1,5 @@
-import { defineComponent, useSSRContext } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/index.mjs';
-import { ssrRenderSlot } from 'file://C:/Users/15270/Desktop/cv-reference/node_modules/vue/server-renderer/index.mjs';
+import { defineComponent, useSSRContext } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/index.mjs';
+import { ssrRenderSlot } from 'file://C:/Users/user/Desktop/cv-reference/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "ProseCode",

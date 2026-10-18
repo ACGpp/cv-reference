@@ -3883,14 +3883,14 @@ const _inlineRuntimeConfig = {
           "code": "en",
           "name": "English",
           "files": [
-            "C:/Users/15270/Desktop/cv-reference/locales/en.json"
+            "C:/Users/user/Desktop/cv-reference/locales/en.json"
           ]
         },
         {
           "code": "zh",
           "name": "中文",
           "files": [
-            "C:/Users/15270/Desktop/cv-reference/locales/zh.json"
+            "C:/Users/user/Desktop/cv-reference/locales/zh.json"
           ]
         }
       ],
@@ -5581,7 +5581,7 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\15270\\Desktop\\cv-reference\\.data\\kv"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\user\\Desktop\\cv-reference\\.data\\kv"}));
 
 const bundledStorage = ["/cache/content"];
 for (const base of bundledStorage) {
